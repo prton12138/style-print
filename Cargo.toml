@@ -1,8 +1,12 @@
 [package]
+description = "a multiple color and effect print API"
+edition = "2021"
+keywords = ["color", "style", "print"]
+license = "Apache-2.0/MIT"
 name = "style-print"
+repository = "https://github.com/prton12138/style-print.git"
 version = "0.1.0"
-edition = "2023"
-autotests = false
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -18,12 +22,3 @@ syn = {version = "1.0", features=["full","extra-traits","visit-mut"]}
 quote = "1.0"
 proc-macro2 = "1.0.47"
 
-[package]
-description = "a multiple color and effect print API"
-edition = "2023"
-keywords = ["color", "style", "print"]
-license = "Apache-2.0/MIT"
-name = "style-print"
-repository = "https://github.com/prton12138/style-print.git"
-version = "0.1.0"
-readme = "README.md"
